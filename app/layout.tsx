@@ -5,10 +5,10 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Ldorado - Premium Poker Cards',
-  description: 'Discover premium quality poker cards from Ldorado. Available on Amazon and Flipkart with worldwide shipping.',
-  keywords: 'poker cards, premium cards, playing cards, Ldorado, Amazon, Flipkart',
-  authors: [{ name: 'Ldorado' }],
+  title: 'Ghosh Travels - Himalayan Tours & Car Rentals',
+  description: 'Explore the breathtaking landscapes of the Himalayas with Ghosh Travels. Offering customized tour packages and car rentals for an unforgettable experience.',
+  keywords: 'Himalayan tours, car rentals, Ghosh Travels, adventure, travel',
+  authors: [{ name: 'Ghosh Travels' }],
   icons: {
     icon: [
       { url: '/icon-32x32.svg', type: 'image/svg+xml' },
@@ -21,8 +21,10 @@ export const metadata: Metadata = {
     shortcut: '/icon-32x32.svg',
   },
   openGraph: {
-    title: 'Ldorado - Premium Poker Cards',
-    description: 'Discover premium quality poker cards from Ldorado.',
+    title: 'Ghosh Travels - Himalayan Tours & Car Rentals',
+    description: 'Explore the breathtaking landscapes of the Himalayas with Ghosh Travels.',
+    url: 'https://ghosh-travels.vercel.app/',
+    siteName: 'Ghosh Travels',
     type: 'website',
   },
 }
